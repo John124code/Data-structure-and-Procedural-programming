@@ -1,4 +1,4 @@
-// Function to calculate dot product (returns the result)
+
 function dot_product(v1, v2) {
     let ps = 0;
     for (let i = 0; i < v1.length; i++) {
@@ -7,7 +7,7 @@ function dot_product(v1, v2) {
     return ps;
 }
 
-// Function to check orthogonality for n pairs of vectors
+
 function checkOrthogonality(vectors1, vectors2) {
     for (let i = 0; i < vectors1.length; i++) {
         const v1 = vectors1[i];
@@ -21,7 +21,7 @@ function checkOrthogonality(vectors1, vectors2) {
     }
 }
 
-// Example usage:
+
 const vectors1 = [
     [1, 2, 3],
     [1, 0, 0],
